@@ -10,6 +10,12 @@ function skillsMember() {
       scope.toggleSkills = function() {
         scope.showSkills = !scope.showSkills;
       };
+    },
+    controller: function($scope) {
+      $scope.skill = {
+        name: 'HTML',
+        level: 5
+      };
     }
   };
 }
